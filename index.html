@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Bhavya Govind</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <!-- Google fonts - Roboto + Roboto Slab-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
+    <!-- animate.css-->
+    <link rel="stylesheet" href="vendor/animate.css/animate.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Leaflet CSS - For the map-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- Reference item-->
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container"><a href="#intro" class="navbar-brand scrollTo">Bhavya Govind</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span class="fa fa-bars"></span></button>
+          <div id="navbarcollapse" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll">My work</a></li>
+              <li class="nav-item"><a href="#techstack" class="nav-link link-scroll">Tech Stack</a></li>
+
+              <!-- <li class="nav-item"><a href="#customers" class="nav-link link-scroll">Clients</a></li> -->
+              <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Intro Image-->
+    <section id="intro" style="background: url(img/home.jpg) center center no-repeat; background-size: cover;" class="intro-section pb-2">
+      <div class="container text-center">
+        <div data-animate="fadeInDown" class="logo"><img src="img/bglogo.png" alt="logo" width="250" height="250"></div>
+        <h1 data-animate="fadeInDown" class="text-shadow mb-5">Hello, hola, नमस्ते !</h1>
+        <p data-animate="slideInUp" class="h3 text-shadow text-400">I grind HTML and CSS and then weld them with React and NodeJs/Ruby on Rails into beautiful and efficient websites.</p>
+      </div>
+    </section>
+    <!-- About-->
+    <section id="about" class="about-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">About me</h2>
+        </header>
+        <div class="row">
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <p>
+              Ever since writing my first program in Objective C and manipulating it to get the desired output, I have been obsessed with the idea of using software to solve practical problems. Software engineering is a never-ending puzzle that I am passionately engaged in solving. I believe in the power of programming to transform and improve the lives of people around the world.
+            </p>
+            <p>
+              I first started working as an iOS developer in 2014 and am currently upskilling through the software engineering immersive course at General Assembly. My skills/Interests include but are not limited to: <strong>HTML, CSS, Javascript, ReactJs, NodeJs, Ruby on Rails, PostgreSQL, Swift, and Objective C</strong>
+            </p>
+
+
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-6">
+            <!-- <div class="skill-item">
+              <div class="progress-title">PHP</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">Javascript</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">HTML coding</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">SEO</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="progress-title">SEM</div>
+              <div class="progress">
+                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
+              </div>
+            </div>
+          </div> -->
+          <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/BhavyaGovind.jpg" alt="This is me - IT worker" class="image rounded-circle img-fluid"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Service-->
+    <!-- <section id="services" class="bg-gradient services-section">
+      <div class="container">
+        <header class="text-center">
+          <h2 data-animate="fadeInDown" class="title">Services</h2>
+        </header>
+        <div class="row services text-center">
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-search"></i></div>
+            <h3 class="heading mb-3 text-400">Consulting</h3>
+            <p class="text-left description">On on produce colonel pointed. Just four sold need over how any. In to september suspicion determine he prevailed admitting. On adapted an as affixed limited on. Giving cousin warmly things no spring mr be abroad. Relation breeding be as repeated strictly followed margaret. One gravity son brought shyness waiting regular led ham.</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-html5"></i></div>
+            <h3 class="heading mb-3 text-400">HTML coding</h3>
+            <p class="text-left description">Manor we shall merit by chief wound no or would. Oh towards between subject passage sending mention or it. Sight happy do burst fruit to woody begin at. Assurance perpetual he in oh determine as.</p>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-4">
+            <div class="icon"><i class="fa fa-tachometer"></i></div>
+            <h3 class="heading mb-3 text-400">PHP webdelopment</h3>
+            <p class="text-left description">Rooms oh fully taken by worse do. Points afraid but may end law lasted. Was out laughter raptures returned outweigh. Luckily cheered colonel me do we attacks on highest enabled. Tried law yet style child. Bore of true of no be deal.</p>
+          </div>
+        </div>
+        <hr data-animate="fadeInUp">
+        <div data-animate="fadeInUp" class="text-center">
+          <p class="lead">Would you like to know more or just discuss something?</p>
+          <p><a href="#contact" class="btn btn-outline-light link-scroll">Contact me</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials
+    <section id="testimonials" class="testimonials-section bg-gray">
+      <div class="container">
+        <header class="text-center mb-2">
+          <h2 data-animate="fadeInUp" class="title">My customers said<br><span>about me</span></h2>
+          <p data-animate="fadeInUp" class="lead">I am always glad to hear that my customers leave satisfied. Some of them shared with you their insights on our cooperation.</p>
+        </header>
+        <ul data-animate="fadeInUp" class="owl-carousel owl-theme testimonials equalize-height">
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-1.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. &quot;What is happened to me? &quot; he thought. It was not a dream.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-2.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-3.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-4.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="item">
+            <div class="testimonial full-height">
+              <div class="text">
+                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
+              </div>
+              <div class="bottom">
+                <div class="icon"><i class="fa fa-quote-left"></i></div>
+                <div class="name-picture"><img alt="" src="img/person-4.jpg">
+                  <h5>John McIntyre</h5>
+                  <p>CEO, TransTech</p>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section> -->
+    <!-- Statistics-->
+    <!-- <section id="statistics" data-dir="up" style="background: url(&quot;img/parallax.jpg&quot;);" class="statistics-section text-white parallax parallax">
+      <div class="container">
+        <div class="row showcase text-center">
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-align-justify"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">120</span><br>Websites</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-users"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">50</span><br>Satisfied Clients</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-copy"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">320</span><br>Projects</h5>
+            </div>
+          </div>
+          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
+            <div class="item">
+              <div class="icon"><i class="fa fa-font"></i></div>
+              <h5 class="text-400 mt-4 text-uppercase"><span class="counter">333</span><br>Magazines and Brochures</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dark-mask"></div>
+    </section> -->
+    <!--
+    *** REFERENCES IMAGE ***
+    _________________________________________________________
+    -->
+    <section id="references">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="mb-5 text-center">
+            <h2 data-animate="fadeInUp" class="title">My work</h2>
+            <p data-animate="fadeInUp" class="lead">These are the projects I developed.</p>
+          </div>
+          <ul id="filter" data-animate="fadeInUp">
+            <li class="active"><a href="#" data-filter="all">All</a></li>
+            <li><a href="#" data-filter="rubyOnRails">Ruby on Rails</a></li>
+            <li><a href="#" data-filter="reactJs">ReactJS </a></li>
+            <li><a href="#" data-filter="javaScript">Javascript</a></li>
+          </ul>
+          <div id="detail">
+            <div class="row">
+              <div class="col-lg-10 mx-auto"><span class="close">×</span>
+                <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                <div class="text-center">
+                  <h1 id="detail-title" class="title"></h1>
+                </div>
+                <div id="detail-content"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Reference detail-->
+          <div id="references-masonry" data-animate="fadeInUp">
+            <div class="row">
+              <div data-category="javaScript" class="reference-item col-lg-3 col-md-6">
+                <div class="reference"><a href="#"><img src="img/tictactoe.jpg" alt="tictactoe" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Tic Tac Toe</h3>
+                        <p>Classic Tic Toe game with two players</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/tictactoe.jpg,img/minionwon.jpg,img/mariowon.jpg,img/tiegame.jpg" class="sr-only reference-description">
+                    <p>This game is built using HTML, CSS and jQuery. Players can choose thier tokens/images. Game score will be updated for every game. Game score can be refreshed by refresh button.</p>
+                    <p class="buttons text-center"><a href="https://bhavyagovind.github.io/TicTacToe/tictactoe.html" target="_blank" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Play Game</a><a href="https://github.com/BhavyaGovind/TicTacToe" class="btn btn-outline-primary"><i class="fa fa-download"></i>Code</a></p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="rubyOnRails" class="reference-item col-lg-3 col-md-6">
+                <div class="reference"><a href="#"><img src="img/covidDashborad.jpg" alt="Covid Dashboard" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Covid Analysis</h3>
+                        <p>NSW Covid cases analysis from 2019 - Present</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/covidDashborad.jpg,img/covidSymptoms.jpg,img/covidChart.jpg" class="sr-only reference-description">
+                    <p>This Project is built on Ruby on Rails. Data from NSW open API's are analysed and displayed in tables. It has Signin and signout functionality, works on sessions.USer can check the zone once logged in based on the suburb.Provides hospitals in NSW, which are working specialy on COVID case.</p>
+                    <p>
+                      Using the symptoms entered by the user, program can predict the status and provides related results like testing centers and emargency contact to dial.
+                    </p>
+                    <p>Covid Chart displays covid cases analysis based on covid cases in each suburb.</p>
+
+                    <p class="buttons text-center"><a href="https://covid-21.herokuapp.com" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/BhavyaGovind/covid-application" class="btn btn-outline-primary"><i class="fa fa-download"></i> Code</a></p>
+                  </div>
+                </div>
+              </div>
+              <div data-category="reactJs" class="reference-item col-lg-3 col-md-6">
+                <div class="reference"><a href="#"><img src="img/bnpmHome.jpg" alt="" class="img-fluid">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">BNPM News</h3>
+                        <p>NEWS website with CRYPTO and WEATHER info</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/bnpmHome.jpg,img/bnpmCrypto.jpg,img/CryptoCharts.jpg,img/weather.jpg,img/justin.jpg" class="sr-only reference-description">
+                    <p>This Project is built on ReactJS, HTML, CSS, and Ruby on Rails as backend server.</p>
+                    <p>Users can check news of different categories like business, general, entertainment, sports, weather, science, crypto and live news video.</p>
+                    <p>Home page provides all local news, top 10 crypto currency details and current location/suburb forecast for four days.</p>
+                    <p>Justin page is designed to read information or news from our backend server.User can subscribe to our news letter integrated with mailchimp.</p>
+                    <p>Project is integrated with cloudinary to support images and videos uploading with news information over the backend.</p>
+                    <p>Project algorithm is designed to get the most related news based on the user input as well.For testing you can search with using "apple" as keyword.</p>
+                    <p>Project is designed using Material UI react components to achive native look and to maintain clean code.</p>
+                    <p class="buttons text-center"><a href="https://bnpm-client.herokuapp.com/" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="https://github.com/BhavyaGovind/AUNEWS-CLIENT" class="btn btn-outline-primary"><i class="fa fa-download"></i> Code</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tech Stack-->
+    <section id="techstack" class="customers-section bg-gray">
+      <div class="container">
+        <div class="col-md-24">
+          <div class="row align-items-center">
+            <div class="col-lg-2 col-md-6 col-sm-6">
+              <div class="customer"><img src="img/htmlLogo.png" title="HTML" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-6 col-sm-6">
+              <div class="customer"><img src="img/cssLogo.png" title="CSS" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/jsLogo.png" title="JavaScript" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/rubyLogo.png" title="Ruby" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/railsLogo.png" title="Rails" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/reactLogo.png" title="ReactJs" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/nodeLogo.png" title="NodeJs" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+              <div class="customer"><img src="img/vueLogo.png" title="Vue" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact-->
+    <section id="contact" data-animate="bounceIn" class="contact-section contact">
+      <div class="container">
+        <header class="text-center">
+          <h2 class="title">Contact me</h2>
+        </header>
+        <div class="row">
+          <div class="col-lg-8 mx-auto" style="text-align:center">
+            <p><label>Phone Number:</label>
+              <label>0420537128</label></p>
+              <p>
+                <label>Email@ </label>
+                <label>mannem.bhavya@gmail.com</label>
+              </p>
+
+
+            <!-- <form action="https://gmail.us1.list-manage.com/subscribe/post?u=a58ac3f80b52045bac544e375&amp;id=cf956b3a2d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="text" name="FNAME" placeholder="Your firstname *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="LNAME" placeholder="Your lastname *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="EMAIL" placeholder="Your email *" required="required" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <input type="text" name="MMERGE4" placeholder="Your phone" class="form-control">
+                  </div>
+                  <div class="col-md-12">
+                    <textarea name="MMERGE6" placeholder="Message for me *" rows="4" required="required" class="form-control"></textarea>
+                  </div>
+                  <div class="col-md-12 text-center">
+                    <button type="submit" name="subscribe" class="btn btn-outline-primary">Send message</button>
+                  </div>
+                </div>
+              </div>
+            </form> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map-->
+
+    <footer class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center text-lg-left">
+            <p class="social">
+              <a href="https://www.linkedin.com/in/bhavyagovind" target="_blank" class="external facebook wow fadeInUp"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+              <a href="https://github.com/BhavyaGovind" target="_blank" data-wow-delay="0.2s"><i class="fa fa-github fa-2x" aria-hidden="true" ></i></a>
+            </p>
+          </div>
+          <!-- /.6-->
+          <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+            <p>© Bhavya Govind All rights reserved.</p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+    <!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
